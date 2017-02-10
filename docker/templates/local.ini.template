@@ -26,3 +26,10 @@ smtp_user = {{smtp_user}}
 smtp_password = {{smtp_password}}
 support_name = {{support_name}}
 support_email = {{support_email}}
+
+
+[update_notifications]
+enable_redis_notifications = {{enable_redis_notifications}}
+redis_host = {{redis_host}}
+redis_port = {{redis_port}}
+redis_channel = {{redis_channel}}
